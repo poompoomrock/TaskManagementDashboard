@@ -6,7 +6,8 @@ export default [
         "components/AppLayout.tsx", // file
         [ // This is the array for children routes
             index("routes/Dashboard.tsx"),
-            route("tasks", "routes/Tasks.tsx")
+            route("tasks", "routes/Tasks.tsx"),
+            route("CRUD", "routes/CRUD.tsx"),
         ]
     )
 ] satisfies RouteConfig;

@@ -38,6 +38,7 @@ const AppLayout: React.FC = () => {
   const menuItems = [
     { text: 'Dashboard', icon: <Dashboard />, path: '/' },
     { text: 'Tasks', icon: <Assignment />, path: '/tasks' },
+     { text: 'CRUD', icon: <Assignment />, path: '/CRUD' },
   ];
 
   const drawer = (
